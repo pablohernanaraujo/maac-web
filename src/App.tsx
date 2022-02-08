@@ -1,7 +1,5 @@
 import React from 'react';
 
-export const App = () => (
-  <div>
-    <h1>REACT</h1>
-  </div>
-);
+import { HomePage } from './pages/home';
+
+export const App = () => <HomePage />;
